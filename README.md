@@ -1,5 +1,7 @@
 # SMS Spam Detection System
 
+![v0.2.1 Coming Soon](https://img.shields.io/badge/🚧_Coming_Soon-v0.2.1-blue?style=for-the-badge)
+
 A production-grade, end-to-end machine learning application designed to classify SMS messages as spam or ham (legitimate). This project utilizes a **decoupled architecture**, separating the machine learning inference engine from the user interface to ensure high performance, scalability, and clean separation of concerns.
 
 ### 🔗 Project Resources
@@ -61,7 +63,7 @@ The project is architected as a distributed web system, hosted across two cloud 
 ### Installation & Setup
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/mdhukka/spam-detection-ml-system.git
+    git clone [https://github.com/mdhukka/spam-detection-ml-system.git](https://github.com/mdhukka/spam-detection-ml-system.git)
     ```
 2.  **Navigate to the project directory:**
     ```bash
@@ -86,9 +88,10 @@ The project is architected as a distributed web system, hosted across two cloud 
 
 ## 🛠️ Roadmap & Future Enhancements
 
-* [ ] Implement Transformer-based models (BERT/RoBERTa) for deeper semantic understanding.
-* [ ] Develop a persistent database layer to log prediction history and monitor model performance.
-* [ ] Integrate user-feedback loops to flag false positives for automated model retraining.
+**🔜 Coming in v0.2.1:**
+* [ ] **Performance Optimizations:** Backend tuning to deliver even faster inference and API response times.
+* [ ] **UI/UX Overhaul:** A redesigned, modern interface for a smoother and more intuitive user experience.
+* [ ] **Deeper Semantic Understanding:** Upgrading the NLP pipeline for more accurate, nuanced spam detection and deeper risk analysis.
 
 ---
 
