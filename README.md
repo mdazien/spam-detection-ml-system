@@ -81,7 +81,7 @@ The project is architected as a distributed web system, hosted across two cloud 
     ```
 2.  **Start the Frontend UI (in a separate terminal):**
     ```bash
-    streamlit run ui.py
+    streamlit run app.pyS
     ```
 
 ---
