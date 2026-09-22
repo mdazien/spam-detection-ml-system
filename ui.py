@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-st.write("UI Loaded Successfully")
+
 st.title("📩 Spam Detection System")
 
 msg = st.text_area("Enter message")
@@ -27,3 +27,5 @@ if st.button("Check"):
             st.error("API error")
     else:
         st.warning("Enter text")
+
+""" UPGRADE THE UI """
